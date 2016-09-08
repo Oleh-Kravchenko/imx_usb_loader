@@ -1,8 +1,11 @@
-*.o
-imx_usb
-imx_uart
-imx_usb.lds
-imx_uart.lds
+*.*~
 *.bin
+build
 *.imx
+imx_uart
+imx_uart.lds
+imx_usb
+imx_usb.lds
+*.kdev4
+*.o
 .*.swp

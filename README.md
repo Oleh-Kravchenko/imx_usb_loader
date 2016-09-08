@@ -13,7 +13,13 @@ The utility support USB and UART as serial link.
 ## Installation
 1. Clone
 1. Make sure libusb (1.0) is available
-1. Compile using make
+1. Compile using CMake
+```
+mkdir build
+cd build
+cmake ..
+make
+```
 
 Two binaries are available, imx_usb and imx_uart for the two supported
 connections.
@@ -46,4 +52,3 @@ tty with the right baud rate (115200) and flow control settings:
 ```
 ./imx_uart /dev/ttyUSB0 vybrid_usb_work.conf u-boot.imx
 ```
-
